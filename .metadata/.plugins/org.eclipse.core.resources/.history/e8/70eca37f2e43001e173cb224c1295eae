@@ -1,0 +1,19 @@
+package coding3;
+
+import java.util.HashSet;
+
+public class Example {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	HashSet<Integer> num= new HashSet<>();
+	num.add(1);
+	num.add(2);
+	num.add(3);
+	
+	for(Integer number: num) {
+		System.out.println(+ number);
+	}
+}
+}

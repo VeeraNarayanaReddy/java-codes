@@ -1,0 +1,19 @@
+package coding3;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.Optional;
+
+public class FindFirstElementWithStream {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList();
+
+        Optional<Integer> firstElement = numbers.stream().findFirst();
+
+        if (firstElement.isPresent()) {
+            System.out.println("First Element: " + firstElement.get());
+        } else {
+            System.out.println("List is empty.");
+        }
+    }
+}

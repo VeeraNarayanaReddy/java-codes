@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;AverageOfList&apos;" deleteContents="false" description="Delete resource &apos;AverageOfList&apos;" element1="/AverageOfList" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1691984767114"/>
+</session>

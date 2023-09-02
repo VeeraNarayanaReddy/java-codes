@@ -1,0 +1,16 @@
+package coding3;
+
+import java.util.Arrays;
+import java.util.List;
+
+public class CountElementsWithStream {
+    public static void main(String[] args) {
+        List<Integer> numbers = Arrays.asList(5, 2, 7, 1, 8, 3, 9, 4, 6);
+        
+        //Stream API to calculate the total number of elements in the numbers list 
+        long totalElements = numbers.stream().count();
+
+        System.out.println("Total Number of Elements: " + totalElements);
+    }
+}
+
